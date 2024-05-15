@@ -1,0 +1,157 @@
+/* Color Default */
+:root {
+    /* Color Neutral*/
+    --white: #ffffff;
+    --Black: #073B4C;
+    --Grey: #64748B;
+    /* Color Primary */
+    --primary: #06D6A0;
+    --secondary: #118AB2;
+    --danger: #EF476F;
+
+    /* Ukuran Font */
+    --display: 3.82rem;
+    --h1: 3.05rem;
+    --h2: 2.44rem;
+    --h3: 2rem;
+    --h4: 1.60rem;
+    --p: 1rem;
+}
+
+.container {
+    gap: 1.875rem;
+    margin: 2rem 5rem;
+    display: flex;
+    padding: 3rem;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    background-color: var(--white);
+}
+
+.provinsiTableTitle h2 {
+    color: var(--primary);
+    font-size: var(--display);
+    font-weight: 500;
+}
+
+.provinsiTableTitle p{
+    color: var(--secondary);
+    font-size: var(--h4);
+    font-weight: 400;
+}
+
+.provinsiTableDescription {
+    overflow-x: auto;
+}
+
+.provinsiTableDescription table {
+    width: 100%;
+    border-collapse: collapse;
+    overflow: hidden;
+}
+
+.provinsiTableDescription th,
+.provinsiTableDescription td {
+    padding: 1rem;
+    border: 1px solid var(--Grey);
+    white-space: wrap;
+}
+
+.provinsiTableDescription th {
+    background-color: var(--primary);
+    color: var(--white);
+    font-size: var(--h4);
+    font-weight: 500;
+}
+
+.provinsiTableDescription td {
+    font-size: var(--p);
+    
+}
+
+.provinsiTableDescription td[data-column="Provinsi"] {
+    color: var(--primary);
+}
+
+.provinsiTableDescription td[data-column="Positif"] {
+    color: var(--secondary);
+}
+
+.provinsiTableDescription td[data-column="Sembuh"] {
+    color: var(--Black);
+}
+
+.provinsiTableDescription td[data-column="Meninggal"] {
+    color: var(--danger);
+}
+
+.provinsiTableDescription td[data-column="Dirawat"] {
+    color: var(--secondary);
+}
+
+.provinsiTableDescription table tbody tr:hover {
+    filter: drop-shadow(0 2px 6px var(--Black));
+    background-color: var(--primary);
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin-top: 20px;
+}
+  
+.pagination li {
+    margin: 0 5px;
+}
+  
+.pagination li a {
+    text-decoration: none;
+    color: var(--primary); 
+    padding: 8px 12px;
+    border: 1px solid var(--primary);
+    border-radius: 5px;
+}
+  
+.pagination li.active a {
+    background-color: var(--primary);
+    color: var(--white);
+}
+  
+.pagination li a:hover {
+    color: var(--white);
+    cursor: pointer;
+    background-color: var(--primary); 
+}
+
+
+/* Media Responsive Medium Screen*/
+@media screen and (max-width:884px) {
+    /* Nothing TO DO Style */
+}
+
+/* Media Responsive Small Screen */
+@media screen and (max-width:600px) { 
+    
+    .container {
+        padding: 0rem;
+    }
+
+    .provinsiTableTitle h2 {
+        font-size: var(--h1);
+    }
+    
+    .provinsiTableTitle p{
+        font-size: var(--h4);
+    }
+
+    .pagination li {
+        margin: 0px 1px
+    }
+      
+    .pagination li a {
+        padding: 2px 3px;
+    }
+
+}
