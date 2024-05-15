@@ -1,0 +1,135 @@
+/* Color Default */
+:root {
+    /* Color Neutral*/
+    --white: #ffffff;
+    --Black: #073B4C;
+    --Grey: #64748B;
+    /* Color Primary */
+    --primary: #06D6A0;
+    --secondary: #118AB2;
+    --danger: #EF476F;
+}
+
+/* Large Screen */
+.container {
+    color: var(--white);
+    padding: 1.5rem 7.5rem;
+    display: flex;
+    align-items: center;
+    background-color: var(--primary);
+    justify-content: space-between;
+}
+
+.logo h1{
+    font-size: 3rem;
+    line-height:3rem;
+}
+
+.navbar {
+    top: 0;
+    left: 0;
+    margin-top: 0.3rem;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.menuIcon {
+    display: none;
+    cursor: pointer;
+}
+
+.menu {
+    gap: 0rem 1.5rem;
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    justify-content: space-between;
+}
+
+.menu li h4 {
+    color: var(--white);
+    font-size: 1.563rem;
+    line-height: 1.563rem;
+}
+
+.menu li h4:hover {
+    cursor: pointer;
+    color: var(--Black);
+}
+
+/* Media Responsive Medium Screen */
+@media screen and (max-width:884px) {
+    
+    .container {
+        padding: 1.5rem 3.5rem;
+    }
+
+    .logo h1{
+        font-size: 2rem;
+        line-height:2rem;
+    }
+
+    .navbar {
+        margin-top: 0.2rem;
+    }
+
+    .menu li h4 {
+        font-size: 1.25rem;
+        line-height: 1.25rem;
+    }
+}
+
+/* Media Responsive Small Screen */
+@media screen and (max-width:600px) {
+    
+    .container {
+        padding:1.5rem 2rem;
+    }
+
+    .logo h1{
+        font-size: 2rem;
+        line-height:2rem;
+    }
+    
+    .navbar {
+        margin-top: 0.3rem;
+    }
+
+    .menuIcon {
+        display: block;
+        font-size: 1.80rem;
+    }
+    
+    .menu {
+        gap: 1.5rem 0rem;
+        top: 4rem;
+        right: 2.5rem;
+        width: 50%;
+        padding: 3rem;
+        display: none;
+        position: absolute;
+        box-sizing: border-box;
+        align-items: none;
+        flex-direction: column;
+        list-style-type: none;
+        justify-content: center;
+        background-color: var(--Black);
+        border-radius: 60px 0px 60px 60px;
+        -webkit-border-radius: 60px 0px 60px 60px;
+        -moz-border-radius: 60px 0px 60px 60px;
+        -ms-border-radius: 60px 0px 60px 60px;
+        -o-border-radius: 60px 0px 60px 60px;
+}
+    
+    .menu.show {
+        display: flex;
+    }
+
+    .menu li h4 {
+        font-size: 1.25rem;
+        line-height: 1.25rem;
+    }
+}
+  

@@ -1,0 +1,124 @@
+/* Color Default */
+:root {
+    /* Color Neutral*/
+    --white: #ffffff;
+    --Black: #073B4C;
+    --Grey: #64748B;
+    /* Color Primary */
+    --primary: #06D6A0;
+    --secondary: #118AB2;
+    --danger: #EF476F;
+
+    /* Ukuran Font */
+    --display: 3.82rem;
+    --h1: 3.05rem;
+    --h2: 2.44rem;
+    --h3: 2rem;
+    --h4: 1.60rem;
+    --p: 1rem;
+}
+
+/* Large Screen */
+.container {
+    gap: 1.875rem;
+    display: flex;
+    padding: 2.5rem 4.5rem 5rem 5rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #F8F9FA;
+    text-align: center;
+}
+
+.indonesiaSectionTitle h2 {
+    color: var(--primary);
+    font-size: var(--display);
+    font-weight: 500;
+}
+
+.indonesiaSectionTitle p{
+    color: var(--secondary);
+    font-size: var(--h4);
+    font-weight: 400;
+}
+
+.indonesiaSectionDescription {
+    gap: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.indonesiaSectionCard {
+    width: 22.125rem;
+    padding: 3rem;
+    border-radius: 1.25rem ;
+    border-color: #e5e7eb;
+    background-color: var(--white);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1), 0 1px 2px rgba(0, 0, 0, 0.06);
+    -webkit-border-radius: 1.25rem ;
+    -moz-border-radius: 1.25rem ;
+    -ms-border-radius: 1.25rem ;
+    -o-border-radius: 1.25rem ;
+}
+
+.indonesiaSectionCard h2 {
+    color: var(--Black);
+    font-size: var(--h2);
+    font-weight: 500;
+}
+
+.indonesiaSectionCard h1 {
+    font-size: var(--h1);
+    font-weight: 500;
+}
+
+/* Medium Screen */
+@media screen and (max-width:884px) {
+    
+    .container {
+        padding: 2rem 2.5rem 3.5rem 2.5rem;
+    }
+
+    .indonesiaSectionDescription {
+        gap: 10px;
+        flex-wrap:nowrap;
+    }
+
+    .indonesiaSectionCard {
+        width: 15.5rem;
+        padding: 2rem;
+    }
+
+    .indonesiaSectionCard h2 {
+        font-size: var(--h4);
+    }
+    
+    .indonesiaSectionCard h1 {
+        font-size: var(--h3);
+    }
+}
+
+/* Small Screen */
+@media screen and (max-width:600px) {
+    
+    .container {
+        padding: 2rem 5rem 3rem 5rem;
+    }
+    
+    .indonesiaSectionDescription {
+        flex-wrap: wrap;
+    }
+
+    .indonesiaSectionCard {
+        width: 21rem;
+    }
+
+    .indonesiaSectionCard h2 {
+        font-size: var(--h3);
+    }
+    
+    .indonesiaSectionCard h1 {
+        font-size: var(--h2);
+    }
+
+}
