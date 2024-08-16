@@ -12,9 +12,9 @@
 
 <div align="center">
 
-  <img width=390 src="https://github-readme-streak-stats-soul222.vercel.app/?user=soul222&count_private=true&theme=react&border_radius=10" alt="streak stats"/>
+  <img width=390 src="https://github-readme-streak-stats-salep07.vercel.app/?user=soul222&count_private=true&theme=react&border_radius=10" alt="streak stats"/>
   <img width=390 src="https://github-readme-stats.vercel.app/api?username=soul222&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=react&locale=en&hide_border=false" height="150" alt="stats graph"  />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=soul222&locale=en&hide_title=false&layout=compact&card_width=325&langs_count=5&theme=react&hide_border=false" height="150" alt="languages graph"  />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=soul222&locale=en&hide_title=false&layout=compact&card_width=390&langs_count=5&theme=react&hide_border=false" height="150" alt="languages graph"  />
 </div>
 
 ###
