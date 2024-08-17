@@ -1,20 +1,23 @@
-<div align="center">
-  <img height="171" src="https://images-ihjoz-com.s3.amazonaws.com/events/cover/810/event_cover_web_dev_banner_for_ihjoz.jpg"  />
+<div align="center" border-radius:"10px">
+  <img height="400" width="1000" src="https://images-ihjoz-com.s3.amazonaws.com/events/cover/810/event_cover_web_dev_banner_for_ihjoz.jpg"  />
 </div>
 
 ###
 
 <h1 align="center">
-    <img src="https://readme-typing-svg.herokuapp.com/?font=Righteous&size=35&center=true&vCenter=true&width=630&height=70&duration=4000&lines=Hi+👋!;+My+name+is+Soultan+Amirul+Mukminin;+I'm+a+Developer;" />
+    <img src="https://readme-typing-svg.herokuapp.com/?font=Righteous&size=35&center=true&vCenter=true&width=630&height=75&duration=4000&lines=Hi+👋!;+My+name+is+Soultan+Amirul+Mukminin;+I'm+a+Developer;" />
 </h1>
 
-###
-
-<div align="center">
-
- <a href="https://git.io/streak-stats"><img src="https://streak-stats.demolab.com?user=soul222&theme=react&card_width=490" alt="GitHub Streak" /></a>
-  <img width=390 src="https://github-readme-stats.vercel.app/api?username=soul222&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=react&locale=en&hide_border=false" height="150" alt="stats graph"  />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=soul222&locale=en&hide_title=false&layout=compact&card_width=390&langs_count=5&theme=react&hide_border=false" height="150" alt="languages graph"  />
+<div align="center" style="display: flex; justify-content: center; flex-wrap: wrap;">
+  <div style="width: 100%; max-width: 800px;">
+    <a href="https://git.io/streak-stats" style="display: block; margin-bottom: 10px;">
+      <img src="https://streak-stats.demolab.com?user=soul222&theme=react&card_width=800" alt="GitHub Streak" style="width: 100%; height: auto;" />
+    </a>
+    <div style="display: flex; justify-content: space-between; flex-wrap: wrap;">
+      <img src="https://github-readme-stats.vercel.app/api?username=soul222&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=react&locale=en&hide_border=false" alt="stats graph" style="width: 49%; height: auto; margin-bottom: 10px;" />
+      <img src="https://github-readme-stats.vercel.app/api/top-langs?username=soul222&locale=en&hide_title=false&layout=compact&card_width=400&langs_count=5&theme=react&hide_border=false" alt="languages graph" style="width: 49%; height: auto; margin-bottom: 10px;" />
+    </div>
+  </div>
 </div>
 
 ###
